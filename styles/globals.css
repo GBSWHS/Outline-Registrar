@@ -85,3 +85,15 @@ body {
     display: none;
   }
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: red;
+  color: white;
+}
+
+footer > a{
+  color: white;
+}

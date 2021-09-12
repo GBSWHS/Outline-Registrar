@@ -3,12 +3,6 @@ import Image from 'next/image'
 export default function Home () {
   return (
     <div className="container">
-      <div className="logo-container">
-        <a target="_blank" href="https://github.com/GBSWHS">
-          <Image src="/logo.png" width="150" height="150" className="logo"/>
-        </a>
-      </div>
-
       <div className="head">
         <Image src="/outline.png" width="70" height="70"/>
         <div>
