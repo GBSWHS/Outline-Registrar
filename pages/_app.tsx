@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }: any) {
   return (
     <>
       <div className="logo-container">
-        <a target="_blank" href="https://github.com/GBSWHS">
+        <a target="_blank" rel="noreferrer" href="https://github.com/GBSWHS">
           <Image src="/logo.png" width="150" height="150" className="logo"/>
         </a>
       </div>

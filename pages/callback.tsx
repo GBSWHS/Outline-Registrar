@@ -1,4 +1,5 @@
 import useSWR from 'swr'
+import Link from 'next/link'
 import Image from 'next/image'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
@@ -76,7 +77,7 @@ export default function CallbackPage () {
         <div>
           <p>접속 주소 발급중 에러가 발생했습니다.</p>
           <p>{data.message} (다시시도하세요)</p>
-          <a href="/">돌아가기</a>
+          <Link href="/">돌아가기</Link>
         </div>
       ): <></>}
     </div>

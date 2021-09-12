@@ -64,6 +64,13 @@ body {
   font-weight: bold;
   border: none;
   text-decoration: none;
+  display: inline-block;
+}
+
+.login > a {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .login:hover {

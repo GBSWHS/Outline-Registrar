@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Home () {
@@ -16,7 +17,7 @@ export default function Home () {
 
       <p>접속 주소를 생성하려면 로그인 하세요</p>
       <br />
-      <a href="/api/redirect_login" className="login">통합 계정으로 로그인</a>
+      <p className="login"><Link href="/api/redirect_login">통합 계정으로 로그인</Link></p>
     </div>
   )
 }
