@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: any) {
       </div>
       <Component {...pageProps} />
       <footer>
-        좋으면 스타나 박아라! 스타 10개 뚫으면 일일 10기가 제한 풀어줌~&nbsp;
+        좋으면 스타나 박아라! 스타 10개 뚫으면 한달 10기가 제한 풀어줌~&nbsp;
         <a href="https://github.com/GBSWHS/Outline-Registrar">스타 박으로 가기</a>
       </footer>
     </>
