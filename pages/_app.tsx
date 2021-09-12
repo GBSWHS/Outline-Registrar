@@ -8,6 +8,12 @@ function MyApp({ Component, pageProps }: any) {
       <Head>
         <title>Outline Registrar</title>
         <link rel="shortcut icon" href="/outline.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Outline Registrar" />
+        <meta property="og:title" content="아웃라인 접속주소 생성기" />
+        <meta property="og:description" content="아웃라인 접속 주소를 자동으로 생성해 줍니다!" />
+        <meta property="og:image" content="https://outline.gbsw.hs.kr/outline.png" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <div className="logo-container">
         <a target="_blank" rel="noreferrer" href="https://github.com/GBSWHS">
