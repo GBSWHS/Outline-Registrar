@@ -1,9 +1,14 @@
+import Head from 'next/head'
 import Image from 'next/image'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }: any) {
   return (
     <>
+      <Head>
+        <title>Outline Registrar</title>
+        <link rel="shortcut icon" href="/outline.png" />
+      </Head>
       <div className="logo-container">
         <a target="_blank" rel="noreferrer" href="https://github.com/GBSWHS">
           <Image src="/logo.png" width="150" height="150" className="logo"/>
